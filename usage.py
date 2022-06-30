@@ -1,3 +1,4 @@
+from flask import Flask
 import dash_tabulator
 import dash
 from dash.dependencies import Input, Output
@@ -11,7 +12,9 @@ from dash_extensions.javascript import Namespace
 external_scripts = ['https://oss.sheetjs.com/sheetjs/xlsx.full.min.js']
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
                         'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css']
-app = dash.Dash(__name__, external_scripts=external_scripts, external_stylesheets=external_stylesheets)
+
+f_app = Flask(__name__)
+app = dash.Dash(__name__, external_scripts=external_scripts, external_stylesheets=external_stylesheets, server=f_app)
 
 styles = {
             'pre': {
