@@ -26,7 +26,7 @@
   "dependencies": {
     "dash-extensions": "0.0.1",
     "ramda": "^0.26.1",
-    "react-tabulator": "^0.14.2",
+    "react-tabulator": "^0.18.1",
     "set-blocking": "^2.0.0"
   },
   "devDependencies": {
