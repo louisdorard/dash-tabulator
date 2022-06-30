@@ -37,7 +37,7 @@ columns = [
                     "hozAlign":"center", "headerSort":"false"},
                 { "title": "Name", "field": "name", "width": 150, "headerFilter":True, "editor":"input"},
                 { "title": "Age", "field": "age", "hozAlign": "left", "formatter": "progress", "bottomCalc":ns("ageCalc")},
-                { "title": "Favourite Color", "field": "col", "headerFilter":True },
+                { "title": "Favourite Color", "field": "col", "headerFilter":True, "editor":"autocomplete", "editorParams": {"values": ["red", "green", "blue"], "freetext": True, "searchFunc": ns("searchFunc")}},
                 { "title": "Date Of Birth", "field": "dob", "hozAlign": "center" },
                 { "title": "Rating", "field": "rating", "hozAlign": "center", "formatter": "star" },
                 { "title": "Passed?", "field": "passed", "hozAlign": "center", "formatter": "tickCross" },
