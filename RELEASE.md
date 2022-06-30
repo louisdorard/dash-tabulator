@@ -11,6 +11,20 @@ Get started with:
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+### Set up your development environment
+
+1. Install node/npm. On macOS with `brew`:
+
+    ```
+    $ brew install node
+    ```
+
+2. Install webpack
+
+    ```
+    $ brew install webpack
+    ```
+
 ### Install dependencies
 
 If you have selected install_dependencies during the prompt, you can skip this part.
