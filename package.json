@@ -1,6 +1,6 @@
 {
   "name": "dash_tabulator",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Dash Plotly component providing Tabulator tables",
   "repository": {
     "type": "git",
@@ -26,8 +26,9 @@
   "dependencies": {
     "dash-extensions": "0.0.1",
     "ramda": "^0.26.1",
-    "react-tabulator": "^0.14.2",
-    "set-blocking": "^2.0.0"
+    "react-tabulator": "^0.18.1",
+    "set-blocking": "^2.0.0",
+    "tabulator-tables": "^5.2.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
